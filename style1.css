@@ -1,0 +1,26 @@
+* {
+    color: fuchsia;
+    box-sizing: border-box;
+}
+
+body .pierwszy#par {
+    color: red;
+}
+
+div#pomocniczy .pierwszy#par {
+    color: rgb(34, 255, 0);
+}
+
+body div .pierwszy {
+    color: yellow;
+}
+
+body .pierwszy {
+    color: green;
+}
+
+body p {
+    color: rgb(128, 0, 107);
+}
+
+

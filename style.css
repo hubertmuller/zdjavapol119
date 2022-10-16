@@ -1,0 +1,62 @@
+h1 {
+    display: inline;
+    color: rgb(167 67 15);
+}
+
+h5 {
+    color:rgb(35, 255, 61);
+}
+
+span {
+    color:rgb(255, 130, 35);
+}
+
+#par {
+    color: rgb(0, 42, 255);
+}
+
+#par1 {
+    color: rgb(255, 0, 162);
+}
+
+p#par1 {
+    color: rgb(255, 0, 162); 
+}
+
+.pierwszy {
+    color: rgb(255, 0, 0);
+}
+
+p.pierwszy {
+    color: rgb(255, 247, 0);
+}
+
+p[test="moj"] {
+    color: rgb(255, 247, 0);
+}
+
+p[id="par1"] {
+    color: rgb(255, 247, 0);
+}
+
+p[class="par"] {
+    color: rgb(255, 247, 0);
+}
+
+body > div[class="moja"] > p#mojtest {
+
+}
+
+body p {
+
+}
+
+h5 + p {
+
+}
+
+h2 ~ p {
+
+}
+
+
