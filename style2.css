@@ -88,3 +88,8 @@ ul > li, ol > li {
     padding-left: 20px;
     list-style-type: none;
 }
+
+div[id] {
+    margin-bottom: 40px;
+    color: red;
+}

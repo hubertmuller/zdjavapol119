@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <p>Lista uczestników konkursu Chopinowskiego</p>
@@ -81,9 +80,11 @@
 
     <form action="index3.html" method="post" name="forma">
 
-        <input type="text" name="imie" value="Hubert" placeholder="Wpisz swoje imie">
-        <input type="text" name="nazwisko" value="Muller" required>
 
+        <input type="text" name="imie" value="Hubert" placeholder="Wpisz swoje imie">
+        <div id="imieError"></div>
+        <input type="text" name="nazwisko" value="Muller" required>
+        <div id="nazwiskoError"></div>
         <input type="password" name="haslo" value="maslo">
         <input type="hidden" name="tajnyIdentyfikator" value="maslo">
 
@@ -133,6 +134,6 @@
 
 
     </form>
-
+    <script src="script.js"></script>
 </body>
 </html>
